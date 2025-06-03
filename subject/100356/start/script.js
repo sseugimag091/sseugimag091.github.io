@@ -1,38 +1,33 @@
 const pages = [
     {
         characters: [{ src: '../static/character1.png' }], // 오늘이 혼자 등장하여 독백 시작
-        speaker: '오늘',
+        speaker: '',
         dialogue: '<이스>는 협동형 퍼즐 게임으로, 감옥에서 탈출해야 하는 인형들의 이야기를 다루고 있다.'
     },
     {
         characters: [{ src: '../static/character1.png' }],
-        speaker: '오늘',
+        speaker: '',
         dialogue: '플레이어는 인형이 되어, 다른 인형을 데리고 게임의 기믹을 수행하게 된다.'
     },
     {
         characters: [{ src: '../static/character1.png' }],
-        speaker: '오늘',
+        speaker: '',
         dialogue: '이때, 플레이어와 필수적으로 동행하게 되는 인형 캐릭터가 있다.'
     },
     {
-        characters: [{ src: '../static/character1.png' }],
-        speaker: '오늘',
+        characters: [{ src: '../static/character2.png' }],
+        speaker: '',
         dialogue: '그의 이름은 \'노나\'' // 작은따옴표는 이스케이프 처리
     },
     {
-        characters: [{ src: '../static/character1.png' }, { src: 'images/character2.png' }],
-        speaker: '오늘', // 지문을 오늘의 행동 또는 생각으로 표현
-        dialogue: '(손에 든 노나 인형을 가만히 내려다본다.)'
-    },
-    {
         characters: [{ src: '../static/character1.png' }, { src: 'images/character2.png' }], // 오늘과 노나 인형이 함께 있는 상태
-        speaker: '오늘',
+        speaker: '',
         dialogue: '인형 노나는 플레이어의 뒤를 천천히 따라오고, 플레이어는 노나의 속도에 맞추어 퍼즐을 풀어야한다.'
     },
     {
         characters: [{ src: '../static/character1.png' }, { src: 'images/character2.png' }],
-        speaker: '오늘',
-        dialogue: '두 인형은 마치 한 몸처럼 움직인다. 노나는 플레이어가 가는 곳에 반드시 따라가고\n플레이어는 노나 없이 게임을 진행할 수 없다.'
+        speaker: '',
+        dialogue: '두 인형은 마치 한 몸처럼 움직인다. 노나는 플레이어가 가는 곳에 반드시 따라가고 플레이어는 노나 없이 게임을 진행할 수 없다.'
     },
     {
         characters: [{ src: '../static/character1.png' }, { src: 'images/character2.png' }], // 오늘과 노나 인형
@@ -41,17 +36,17 @@ const pages = [
     },
     {
         characters: [{ src: '../static/character1.png' }, { src: 'images/character2.png' }],
-        speaker: '오늘',
+        speaker: '',
         dialogue: '나는 고개를 숙인 채 인형을 끌어안았다.'
     },
     {
         characters: [{ src: '../static/character1.png' }, { src: 'images/character2.png' }],
-        speaker: '오늘',
+        speaker: '',
         dialogue: '흉터처럼 단단하게 뭉친 솜을 가졌음에도 노나는 여전히 푹신하다.'
     },
     {
         characters: [{ src: '../static/character1.png' }, { src: 'images/character2.png' }],
-        speaker: '오늘',
+        speaker: '',
         dialogue: '... 내 삶은 어느 순간부터 마치 <이스> 같아져서\n노나 없이는 아무것도 할 수 없게되었다.'
     }
 ];
