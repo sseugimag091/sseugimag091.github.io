@@ -7,7 +7,7 @@ const pages = [
     },
     {
         characters: [{ src: '../static/character1.png' }],
-        speaker: '오늘',
+        speaker: '',
         dialogue: '자각하지 못한 사이 참고 있던 숨이 터져 나온다.'
     },
     {
@@ -22,7 +22,7 @@ const pages = [
     },
     {
         characters: [{ src: '../static/character1.png' }],
-        speaker: '오늘',
+        speaker: '',
         dialogue: '처음 보는 공간이다. 누군가의 방인가?\n기묘한 익숙함이 느껴진다.\n하지만 주위를 더 둘러볼 새도 없이 아까부터 들려오던 목소리가 정신을 일깨운다.'
     },
     {
@@ -33,7 +33,7 @@ const pages = [
     {
         characters: [{ src: '../static/character1.png' }],
         speaker: '오늘',
-        dialogue: '(응…?)'
+        dialogue: '응…?'
     },
     {
         characters: [{ src: '../static/character1.png' }],
@@ -53,11 +53,11 @@ const pages = [
     {
         characters: [{ src: '../static/character1.png' }],
         speaker: '오늘',
-        dialogue: '(너는… 노나?)'
+        dialogue: '너는… 노나?'
     },
     {
         characters: [{ src: '../static/character1.png' }, { src: '../static/character2.png' }],
-        speaker: '오늘',
+        speaker: '',
         dialogue: '하얀 고양이 인형이 격하게 고개를 끄덕인다.'
     },
     {
@@ -68,22 +68,12 @@ const pages = [
     {
         characters: [{ src: '../static/character1.png' }, { src: '../static/character2.png' }],
         speaker: '오늘',
-        dialogue: '(노나가… 남자였어?)'
+        dialogue: '노나가… 남자였어?'
     },
     {
         characters: [{ src: '../static/character1.png' }, { src: '../static/character2.png' }],
         speaker: '노나',
         dialogue: '그건 별로 중요하지 않아!'
-    },
-    {
-        characters: [{ src: '../static/character1.png' }, { src: '../static/character2.png' }],
-        speaker: '오늘',
-        dialogue: '(당연하지, 내가 어떻게 널 못 알아볼 수 있겠어?)'
-    },
-    {
-        characters: [{ src: '../static/character1.png' }, { src: '../static/character2.png' }],
-        speaker: '노나',
-        dialogue: '역시 늘이야! 널 부르길 잘했어!'
     },
     {
         characters: [{ src: '../static/character1.png' }, { src: '../static/character2.png' }],
@@ -108,7 +98,7 @@ const pages = [
     {
         characters: [{ src: '../static/character1.png' }, { src: '../static/character2.png' }],
         speaker: '오늘',
-        dialogue: '(일단… 알겠어.)'
+        dialogue: '일단… 알겠어.'
     },
     {
         characters: [{ src: '../static/character1.png' }, { src: '../static/character2.png' }],
@@ -123,42 +113,37 @@ const pages = [
     {
         characters: [{ src: '../static/character1.png' }, { src: '../static/character2.png' }],
         speaker: '오늘',
-        dialogue: '(고개를 끄덕인다. 나도 잘 부탁해.)'
+        dialogue: '응,나도 잘 부탁해.'
     },
     {
         characters: [{ src: '../static/character1.png' }, { src: '../static/character2.png' }],
-        speaker: '오늘',
+        speaker: '',
         dialogue: '말을 할 수 있는 노나를 만나게 될 줄이야.'
     },
     {
         characters: [{ src: '../static/character1.png' }, { src: '../static/character2.png' }],
-        speaker: '오늘',
+        speaker: '',
         dialogue: '그렇다면, 나는 <이스>안으로 들어온 걸까?'
     },
     {
         characters: [{ src: '../static/character1.png' }, { src: '../static/character2.png' }],
-        speaker: '오늘',
-        dialogue: '잘 모르겠다.'
-    },
-    {
-        characters: [{ src: '../static/character1.png' }, { src: '../static/character2.png' }],
-        speaker: '오늘',
+        speaker: '',
         dialogue: '하지만… <이스>에 이런 맵이 있었던가?'
     },
     {
         characters: [{ src: '../static/character1.png' }, { src: '../static/character2.png' }],
-        speaker: '오늘',
+        speaker: '',
+        dialogue: '잘 모르겠다.'
+    },
+    {
+        characters: [{ src: '../static/character1.png' }, { src: '../static/character2.png' }],
+        speaker: '',
         dialogue: '게임을 안 한 지 너무 오래되어서 기억이 잘 나지 않는다.'
     },
     {
         characters: [{ src: '../static/character1.png' }, { src: '../static/character2.png' }],
         speaker: '오늘',
-        dialogue: '일단은 노나와 함께 이 감옥에서 탈출하고 생각해보자.'
-    },
-    {
-        characters: [{ src: '../static/character1.png' }, { src: '../static/character2.png' }],
-        speaker: '오늘',
-        dialogue: '가만히 있는다고 답이 나올 리도 없으니까.'
+        dialogue: '모르겠어. 일단은 노나와 함께 이 감옥에서 탈출하고 생각해보자.'
     }
 ];
 
