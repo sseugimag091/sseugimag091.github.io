@@ -13,7 +13,7 @@ const pages = [
     },
     {
         characters: [{ src: '../static/character1.png' }],
-        speaker: '오늘', // 오늘의 생각/나레이션
+        speaker: '', // 오늘의 생각/나레이션
         dialogue: '집 안이 썰렁하다. 부모님은 아직 퇴근하지 않으신 것 같다.'
     },
     {
@@ -67,13 +67,18 @@ const pages = [
         characters: [{ src: '../static/character1.png' }], // 오늘 혼자 컴퓨터를 보는 상황, 또는 노나와 함께
                                                         // 일단 오늘 혼자로 설정. 노나는 책상에 내려둔 상태로 해석.
                                                         // 만약 노나도 계속 화면에 있게 하려면 [{ src: '../static/character1.png' }, { src: '../static/character2.png' }]
-        speaker: '오늘', // 나레이션 또는 오늘의 생각
-        dialogue: '(근처에서 남자아이의 목소리가 들린다.)' // "컴퓨터:" 부분은 제거하고 내용만 살림
+        speaker: '???', // 나레이션 또는 오늘의 생각
+        dialogue: '...와줘, 도와줘!' // "컴퓨터:" 부분은 제거하고 내용만 살림
     },
     {
         characters: [{ src: '../static/character1.png' }],
         speaker: '오늘',
-        dialogue: '이게 무슨 소리지? …잠깐, 컴퓨터에 <이스>가 켜져 있잖아?'
+        dialogue: '이게 무슨 소리지?'
+    },
+    {
+        characters: [{ src: '../static/character1.png' }],
+        speaker: '오늘',
+        dialogue: '…잠깐, 컴퓨터에 <이스>가 켜져 있잖아?'
     },
     {
         characters: [{ src: '../static/character1.png' }], // 오늘이 듣는 상황
