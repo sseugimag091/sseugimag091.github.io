@@ -20,32 +20,32 @@ const pages = [
         dialogue: '그의 이름은 \'노나\''
     },
     {
-        characters: [{ src: '../static/character2.png' }],
+        characters: [{ src: '../static/character1.png' }, { src: '../static/character2.png' }],
         speaker: '',
         dialogue: '인형 노나는 플레이어의 뒤를 천천히 따라오고, 플레이어는 노나의 속도에 맞추어 퍼즐을 풀어야한다.'
     },
     {
-        characters: [{ src: '../static/character2.png' }],
+        characters: [{ src: '../static/character1.png' }, { src: '../static/character2.png' }],
         speaker: '',
         dialogue: '두 인형은 마치 한 몸처럼 움직인다. 노나는 플레이어가 가는 곳에 반드시 따라가고 플레이어는 노나 없이 게임을 진행할 수 없다.'
     },
     {
-        characters: [{ src: '../static/character1.png' }, { src: '../static/character2.png' }],
+        characters: [{ src: '../static/character1.png' }],
         speaker: '오늘',
         dialogue: '......'
     },
     {
-        characters: [{ src: '../static/character1.png' }, { src: '../static/character2.png' }],
+        characters: [{ src: '../static/character1.png' }],
         speaker: '',
         dialogue: '나는 고개를 숙인 채 인형을 끌어안았다.'
     },
     {
-        characters: [{ src: '../static/character1.png' }, { src: '../static/character2.png' }],
+        characters: [{ src: '../static/character1.png' }],
         speaker: '',
         dialogue: '흉터처럼 단단하게 뭉친 솜을 가졌음에도 노나는 여전히 푹신하다.'
     },
     {
-        characters: [{ src: '../static/character1.png' }, { src: '../static/character2.png' }],
+        characters: [{ src: '../static/character1.png' }],
         speaker: '',
         dialogue: '... 내 삶은 어느 순간부터 마치 <이스> 같아져서\n노나 없이는 아무것도 할 수 없게되었다.'
     }
