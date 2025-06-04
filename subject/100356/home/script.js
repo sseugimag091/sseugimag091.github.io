@@ -1,8 +1,6 @@
-// 페이지 데이터 정의 예시 (사용자 스크립트 기반)
 const pages = [
-    // 집 도착
     {
-        characters: [{ src: '../static/character1.png' }], // 오늘 혼자 등장
+        characters: [{ src: '../static/character1.png' }],
         speaker: '오늘',
         dialogue: '다녀왔습니다.'
     },
@@ -13,7 +11,7 @@ const pages = [
     },
     {
         characters: [{ src: '../static/character1.png' }],
-        speaker: '', // 오늘의 생각/나레이션
+        speaker: '',
         dialogue: '집 안이 썰렁하다. 부모님은 아직 퇴근하지 않으신 것 같다.'
     },
     {
@@ -21,70 +19,6 @@ const pages = [
         speaker: '오늘',
         dialogue: '방으로 돌아가자.'
     },
-    // 방 안
-    {
-        characters: [{ src: '../static/character1.png' }],
-        speaker: '오늘',
-        dialogue: '딱히 할 일이 없네. 숙제도 따로 없었고. 피곤하긴 한데 자고싶은건 아니야.'
-    },
-    {
-        // 오늘이 노나에게 말을 걸기 시작하므로, 노나 등장
-        characters: [{ src: '../static/character1.png' }, { src: '../static/character2.png' }],
-        speaker: '오늘',
-        dialogue: '노나, 뭘 해야할까?'
-    },
-    {
-        characters: [{ src: '../static/character1.png' }, { src: '../static/character2.png' }],
-        speaker: '노나',
-        dialogue: '…...' // 노나는 말이 없음
-    },
-    {
-        characters: [{ src: '../static/character1.png' }, { src: '../static/character2.png' }],
-        speaker: '오늘',
-        dialogue: '아, 그럼 오랜만에 게임이나 할까? 그러고보니 <이스>를 마지막으로 한게 언제였더라. 결말 내용도 까먹겠어.'
-    },
-    {
-        characters: [{ src: '../static/character1.png' }, { src: '../static/character2.png' }],
-        speaker: '노나',
-        dialogue: '…...'
-    },
-    {
-        characters: [{ src: '../static/character1.png' }, { src: '../static/character2.png' }],
-        speaker: '오늘',
-        dialogue: '게임 결말이 어땠더라… . 진짜로 기억이 안 나.'
-    },
-    {
-        characters: [{ src: '../static/character1.png' }, { src: '../static/character2.png' }],
-        speaker: '오늘', // 지문을 오늘의 행동/생각으로 표현
-        dialogue: '(노나를 책상 앞에 내려놓는다.)'
-    },
-    {
-        characters: [{ src: '../static/character1.png' }, { src: '../static/character2.png' }],
-        speaker: '오늘',
-        dialogue: '어쩔 수 없다. 우리 오늘은 <이스> 엔딩이나 다시 보는걸로 하자.'
-    },
-    {
-        characters: [{ src: '../static/character1.png' }], // 오늘 혼자 컴퓨터를 보는 상황, 또는 노나와 함께
-                                                        // 일단 오늘 혼자로 설정. 노나는 책상에 내려둔 상태로 해석.
-                                                        // 만약 노나도 계속 화면에 있게 하려면 [{ src: '../static/character1.png' }, { src: '../static/character2.png' }]
-        speaker: '???', // 나레이션 또는 오늘의 생각
-        dialogue: '...와줘, 도와줘!' // "컴퓨터:" 부분은 제거하고 내용만 살림
-    },
-    {
-        characters: [{ src: '../static/character1.png' }],
-        speaker: '오늘',
-        dialogue: '이게 무슨 소리지?'
-    },
-    {
-        characters: [{ src: '../static/character1.png' }],
-        speaker: '오늘',
-        dialogue: '…잠깐, 컴퓨터에 <이스>가 켜져 있잖아?'
-    },
-    {
-        characters: [{ src: '../static/character1.png' }], // 오늘이 듣는 상황
-        speaker: '???', // 컴퓨터에서 나는 정체불명의 목소리
-        dialogue: '도와줘! 나 좀 꺼내줘!'
-    }
 ];
 
 let currentPageIndex = 0;
