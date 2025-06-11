@@ -1,24 +1,134 @@
 const pages = [
     {
         characters: [{ src: '../static/character1.png' }],
-        speaker: '오늘',
-        dialogue: '다녀왔습니다.'
+        speaker: '',
+        dialogue: '현관문을 열자마자 상쾌한 공기가 끼쳐온다.'
     },
     {
         characters: [{ src: '../static/character1.png' }],
         speaker: '오늘',
-        dialogue: '…아무도 없나보다.'
+        dialogue: '밖이다! 나오는 데 성공했어!'
+    },
+    {
+        characters: [{ src: '../static/character1.png' }],
+        speaker: '오늘',
+        dialogue: '노나, 이걸로 된 거지?'
     },
     {
         characters: [{ src: '../static/character1.png' }],
         speaker: '',
-        dialogue: '집 안이 썰렁하다. 부모님은 아직 퇴근하지 않으신 것 같다.'
+        dialogue: '.....'
     },
     {
         characters: [{ src: '../static/character1.png' }],
         speaker: '오늘',
-        dialogue: '방으로 돌아가자.'
+        dialogue: '노나?'
     },
+    {
+        characters: [{ src: '../static/character1.png' }],
+        speaker: '',
+        dialogue: '뒤를 돌아보았지만, 더 이상 노나의 모습은 보이지 않는다.'
+    },
+    {
+        characters: [{ src: '../static/character1.png' }],
+        speaker: '오늘',
+        dialogue: '노나? 어디있어?'
+    },
+    {
+        characters: [{ src: '../static/character1.png' }],
+        speaker: '',
+        dialogue: '챙그랑-'
+    },
+    {
+        characters: [{ src: '../static/character1.png' }],
+        speaker: '',
+        dialogue: '그때, 손에 들고 있던 무언가 바닥으로 떨어진다.'
+    },
+    {
+        characters: [{ src: '../static/character1.png' }],
+        speaker: '오늘',
+        dialogue: '응?'
+    },
+    {
+        characters: [{ src: '../static/knife.png' }],
+        speaker: '',
+        dialogue: '(피 묻은 칼 사진)'
+    },
+    {
+        characters: [{ src: '../static/knife.png' }],
+        speaker: '',
+        dialogue: '발치에 피 묻은 칼이 떨어져 있다.'
+    },
+    {
+        characters: [{ src: '../static/character1.png' }],
+        speaker: '오늘',
+        dialogue: '….어라?'
+    },
+    {
+        characters: [{ src: '../static/character1.png' }],
+        speaker: '오늘',
+        dialogue: '내가 왜 이런 걸 들고 있었던거지?'
+    },
+    {
+        characters: [{ src: '../static/character1.png' }],
+        speaker: '오늘',
+        dialogue: '나는 당황스러움에 주춤거리며 물러섰다.'
+    },
+    {
+        characters: [{ src: '../static/character1.png' }],
+        speaker: '',
+        dialogue: '하지만 얼마 지나지 않아 발치에 무언가 채인다.'
+    },
+    {
+        characters: [{ src: '../static/character1.png' }],
+        speaker: '오늘',
+        dialogue: '.....'
+    },
+    {
+        characters: [{ src: '../static/character1.png' }],
+        speaker: '',
+        dialogue: '삐걱이며 돌린 시야 끝에는 피투성이의 소년이 쓰러져있다.'
+    },
+    {
+        characters: [{ src: '../static/character1.png' }],
+        speaker: '',
+        dialogue: '소년의 주위로는 붉은 핏물이 웅덩이를 이루고 있다.'
+    },
+    {
+        characters: [{ src: '../static/character1.png' }],
+        speaker: '',
+        dialogue: '온 사방에 핏자국이 선명하다.'
+    },
+    {
+        characters: [{ src: '../static/character1.png' }],
+        speaker: '오늘',
+        dialogue: '......'
+    },
+    {
+        characters: [{ src: '../static/character1.png' }],
+        speaker: '',
+        dialogue: '나는 무의식적으로 양손을 내려다보았다.'
+    },
+    {
+        characters: [{ src: '../static/character1.png' }],
+        speaker: '',
+        dialogue: '(피묻은 손)'
+    },
+    {
+        characters: [{ src: '../static/character1.png' }],
+        speaker: '',
+        dialogue: '손이 붉다.'
+    },
+    {
+        characters: [{ src: '../static/character1.png' }],
+        speaker: '오늘',
+        dialogue: '......'
+    },
+    {
+        characters: [{ src: '../static/character1.png' }],
+        speaker: '오늘',
+        dialogue: '하하.'
+    }
 ];
 
 let currentPageIndex = 0;

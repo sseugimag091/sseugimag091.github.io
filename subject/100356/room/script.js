@@ -176,5 +176,6 @@ function nextPage() {
 }
 
 gameContainerElement.addEventListener('click', nextPage);
+window.addEventListener('keydown', nextPage);
 
 loadPage(currentPageIndex);

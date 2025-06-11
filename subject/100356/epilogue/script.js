@@ -1,23 +1,53 @@
 const pages = [
     {
-        characters: [{ src: '../static/character1.png' }],
-        speaker: '오늘',
-        dialogue: '다녀왔습니다.'
+        characters: [],
+        speaker: '',
+        dialogue: '집 주변이 온갖 색색의 불빛과 사람들로 둘러싸여 소란스럽다.'
+    },
+    {
+        characters: [],
+        speaker: '',
+        dialogue: '시끄럽다.'
+    },
+    {
+        characters: [],
+        speaker: '',
+        dialogue: '왜 이렇게 많은 사람들이 모여있을까?'
     },
     {
         characters: [{ src: '../static/character1.png' }],
         speaker: '오늘',
-        dialogue: '…아무도 없나보다.'
+        dialogue: '노나, 밖이 너무 시끄러워.'
     },
     {
         characters: [{ src: '../static/character1.png' }],
         speaker: '',
-        dialogue: '집 안이 썰렁하다. 부모님은 아직 퇴근하지 않으신 것 같다.'
+        dialogue: '노나는 대답하지 않는다.'
     },
     {
         characters: [{ src: '../static/character1.png' }],
         speaker: '오늘',
-        dialogue: '방으로 돌아가자.'
+        dialogue: '......'
+    },
+    {
+        characters: [{ src: '../static/character1.png' }],
+        speaker: '',
+        dialogue: '나는 노나를 끌어안았다.'
+    },
+    {
+        characters: [{ src: '../static/character1.png' }],
+        speaker: '',
+        dialogue: '흉터처럼 단단하게 뭉친 솜을 가졌음에도 노나는 여전히 푹신하다.'
+    },
+    {
+        characters: [{ src: '../static/character1.png' }],
+        speaker: '',
+        dialogue: '온기는 느껴지지 않는다.'
+    },
+    {
+        characters: [{ src: '../static/character1.png' }],
+        speaker: '',
+        dialogue: '.............FIN'
     },
 ];
 
